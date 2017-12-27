@@ -7,7 +7,7 @@
  */
 
 // <reference path="../typings/Q.d.ts" />
-// <reference path="../typings/node.d.ts" />
+// <reference types="node" />
 
 // Note: cordova.d.ts defines typings for cordova as a cordova app would see it.
 // This file defines typings as the npm cordova module is used

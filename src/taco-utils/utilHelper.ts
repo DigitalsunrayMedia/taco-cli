@@ -4,7 +4,7 @@
 /// <reference path="../typings/iconv-lite.d.ts"/>
 /// <reference path="../typings/mkdirp.d.ts"/>
 /// <reference path="../typings/ncp.d.ts"/>
-/// <reference path="../typings/node.d.ts" />
+/// <reference types="node" />
 /// <reference path="../typings/nopt.d.ts" />
 /// <reference path="../typings/Q.d.ts" />
 /// <reference path="../typings/rimraf.d.ts"/>

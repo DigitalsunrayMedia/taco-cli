@@ -6,7 +6,7 @@
  *******************************************************
  */
 
-/// <reference path="../typings/node.d.ts" />
+/// <reference types="node" />
 /// <reference path="../typings/colors.d.ts" />
 declare module TacoUtility {
     class LoggerHelper {

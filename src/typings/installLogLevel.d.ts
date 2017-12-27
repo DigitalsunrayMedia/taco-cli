@@ -5,7 +5,7 @@
 ﻿ *                                                     *
 ﻿ *******************************************************
 ﻿ */
-/// <reference path="../typings/node.d.ts" />
+/// <reference types="node" />
 
 declare module TacoUtility {
     enum InstallLogLevel {

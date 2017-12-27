@@ -3,7 +3,7 @@
 // Definitions by: Maxime LUCE <https://github.com/SomaticIT/>
 // Definitions: https://github.com/borisyankov/DefinitelyTyped
 
-/// <reference path="./node.d.ts" />
+/// <reference types="node" />
 
 declare module NPM {
     export interface Static extends NodeJS.EventEmitter {

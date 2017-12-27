@@ -3,7 +3,7 @@
 
 "use strict";
 
-/// <reference path="../typings/node.d.ts" />
+/// <reference types="node" />
 /// <reference path="../typings/applicationinsights.d.ts" />
 /// <reference path="../typings/winreg.d.ts" />
 

@@ -192,3 +192,6 @@ ModelManifest.xml
 
 # node packages
 node_modules/
+
+# Jetbrains
+.idea

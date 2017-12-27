@@ -1,15 +1,8 @@
 // Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for details.
 
-var path = require('path');
 var Q = require('q');
-var fs = require('fs');
-var url = require('url');
-var logger = require('./utils/logger');
-var helpers = require('./utils/helpers');
 var merge = require('lodash.merge');
-
-var projectRoot;
 
 /**
  * @constructor
@@ -17,13 +10,11 @@ var projectRoot;
  * @param {Object} options - Options to initialize LiveReload with - These are to be passed to the underlying BrowserSync.
  *                           See http://www.browsersync.io/docs/options/ for documentation
  */
-
 function BrowserSyncServer(projectRoot, options) {
     this.projectRoot = projectRoot;
     this.options = options;
     this.browserSync = require('browser-sync').create(); 
-};
-
+}
 
 BrowserSyncServer.prototype.startServer = function () {
     var self = this;
@@ -47,7 +38,8 @@ BrowserSyncServer.prototype.startServer = function () {
             }
         },
         minify: false,
-        ghostMode: true
+        ghostMode: true,
+        reloadDebounce: 2000
     };
 
 

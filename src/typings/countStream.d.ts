@@ -6,7 +6,7 @@
  *******************************************************
  */
 
-/// <reference path="../typings/node.d.ts" />
+/// <reference types="node" />
 declare module TacoUtility {
     /**
      * This class counts how many bytes pass through it in a pipe stream.

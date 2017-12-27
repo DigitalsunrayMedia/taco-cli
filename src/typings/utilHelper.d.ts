@@ -6,7 +6,7 @@
  *******************************************************
  */
 
-/// <reference path="../typings/node.d.ts" />
+/// <reference types="node" />
 /// <reference path="../typings/Q.d.ts" />
 /// <reference path="../typings/mkdirp.d.ts" />
 /// <reference path="../typings/ncp.d.ts" />

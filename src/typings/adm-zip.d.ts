@@ -3,7 +3,7 @@
 // Definitions by: John Vilk <https://github.com/jvilk>
 // Definitions: https://github.com/borisyankov/DefinitelyTyped
 
-/// <reference path="./node.d.ts" />
+/// <reference types="node" />
 
 declare module AdmZip {
     class ZipFile {

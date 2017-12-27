@@ -8,7 +8,7 @@
 
 /// <reference path="../typings/tacoUtils.d.ts" />
 /// <reference path="../typings/express.d.ts" />
-/// <reference path="../typings/node.d.ts" />
+/// <reference types="node" />
 
 interface ITargetPlatform {
     /**

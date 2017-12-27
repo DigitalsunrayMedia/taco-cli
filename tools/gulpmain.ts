@@ -1,7 +1,7 @@
 ﻿// Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for details.
 
-/// <reference path="../src/typings/node.d.ts" />
+/// <reference types="node" />
 /// <reference path="../src/typings/Q.d.ts" />
 /// <reference path="../src/typings/gulp.d.ts" />
 /// <reference path="../src/typings/gulpExtensions.d.ts" />
@@ -88,7 +88,7 @@ gulp.task("compile", function (): Q.Promise<any> {
 });
 
 /* compile + copy */
-gulp.task("build", ["prepare-templates"], function (callback: gulp.TaskCallback): void {
+gulp.task("build", [], function (callback: gulp.TaskCallback): void {
     runSequence("compile", "copy", callback);
 });
 

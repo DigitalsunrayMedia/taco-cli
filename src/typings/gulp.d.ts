@@ -3,7 +3,7 @@
 // Definitions by: Drew Noakes <https://drewnoakes.com>
 // Definitions: https://github.com/borisyankov/DefinitelyTyped
 
-/// <reference path="node.d.ts" />
+/// <reference types="node" />
 /// <reference path="orchestrator.d.ts" />
 
 declare module "gulp" {

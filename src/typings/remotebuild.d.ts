@@ -7,7 +7,7 @@
  */
 
 /// <reference path="./express.d.ts" />
-/// <reference path="./node.d.ts" />
+/// <reference types="node" />
 /// <reference path="./Q.d.ts" />
 
 declare module RemoteBuild {

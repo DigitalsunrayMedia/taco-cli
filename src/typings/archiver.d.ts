@@ -11,7 +11,7 @@
     archiver.finalize();
  =============================================== */
 
-/// <reference path="./node.d.ts" />
+/// <reference types="node" />
 declare module "archiver" {
     import * as FS from 'fs';
     

@@ -8,7 +8,7 @@
 
 /// <reference path="../typings/commands.d.ts" />
 /// <reference path="../typings/cordovaExtensions.d.ts" />
-/// <reference path="../typings/node.d.ts" />
+/// <reference types="node" />
 /// <reference path="../typings/Q.d.ts" />
 
 declare module TacoUtility {

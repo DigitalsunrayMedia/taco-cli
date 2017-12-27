@@ -5,7 +5,7 @@
 
 // Imported from: https://github.com/soywiz/typescript-node-definitions/d.ts
 
-/// <reference path="./node.d.ts" />
+/// <reference types="node" />
 /// <reference path="./form-data.d.ts" />
 
 declare module 'request' {

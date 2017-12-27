@@ -6,7 +6,7 @@
  *******************************************************
  */
 
-/// <reference path="../typings/node.d.ts" />
+/// <reference types="node" />
 declare module TacoUtility {
     /**
      * This class converts all newlines it encounters to either windows or unix style newlines, depending on the OS

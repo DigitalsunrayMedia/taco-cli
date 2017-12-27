@@ -6,7 +6,7 @@
  *******************************************************
  */
 
-/// <reference path="../typings/node.d.ts" />
+/// <reference types="node" />
 /// <reference path="../typings/colors.d.ts" />
 /// <reference path="../typings/resourceManager.d.ts" />
 

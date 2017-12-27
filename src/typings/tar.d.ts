@@ -4,7 +4,7 @@
 // Definitions: https://github.com/borisyankov/DefinitelyTyped
 // TODO: When/if typings for [fstream](https://github.com/npm/fstream) are written, refactor this typing to use it for the various streams.
 
-/// <reference path="./node.d.ts" />
+/// <reference types="node" />
 
 declare module "tar" {
     import stream = require("stream");

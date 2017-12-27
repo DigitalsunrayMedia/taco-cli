@@ -6,7 +6,7 @@
  *******************************************************
  */
 
-/// <reference path="node.d.ts"/>
+
 
 declare module "merge2" {
 

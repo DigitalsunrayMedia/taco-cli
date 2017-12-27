@@ -6,7 +6,7 @@
  *******************************************************
  */
 
-/// <reference path="../typings/node.d.ts" />
+/// <reference types="node" />
 /// <reference path="../typings/commands.d.ts" />
 /// <reference path="../typings/cordovaExtensions.d.ts" />
 /// <reference path="../typings/installLogLevel.d.ts" />

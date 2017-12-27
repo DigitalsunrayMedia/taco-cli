@@ -3,7 +3,7 @@
 // Definitions by: Keita Kagurazaka <https://github.com/k-kagurazaka>
 // Definitions: https://github.com/borisyankov/DefinitelyTyped
 
-/// <reference path="./node.d.ts" />
+/// <reference types="node" />
 /// <reference path="gulp.d.ts" />
 
 declare module "run-sequence" {

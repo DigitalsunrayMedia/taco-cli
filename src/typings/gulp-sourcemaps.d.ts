@@ -3,7 +3,7 @@
 // Definitions by: Asana <https://asana.com>
 // Definitions: https://github.com/borisyankov/DefinitelyTyped
 
-/// <reference path="node.d.ts"/>
+
 
 declare module "gulp-sourcemaps" {
     interface InitOptions {

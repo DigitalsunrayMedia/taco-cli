@@ -10,7 +10,7 @@
 
  =============================================== */
 
-/// <reference path="./node.d.ts" />
+/// <reference types="node" />
 
 declare function Express(): Express.Express;
 declare module Express {

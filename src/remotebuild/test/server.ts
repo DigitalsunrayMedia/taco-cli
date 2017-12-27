@@ -75,7 +75,7 @@ describe("server", function (): void {
     });
 
     it("should fail gracefully if the port is taken", function (done: MochaDone): void {
-        var dummyServer: NodeJSNet.Server = net.createServer(function (c: net.Socket): void {
+        var dummyServer: net.Server = net.createServer(function (c: net.Socket): void {
             // Don't care about connections, we just want to use up a port
         });
 

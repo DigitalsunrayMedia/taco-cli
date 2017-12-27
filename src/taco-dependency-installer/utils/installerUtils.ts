@@ -164,11 +164,11 @@ class InstallerUtils {
      * Prompts the user for permission to overwrite the specified system environment variable. Uses the specified socket for communication.
      *
      * @param {string} name The name of the environment variable to set
-     * @param {NodeJSNet.Socket} socket The socket over which to send the prompt request
+     * @param {NodeJS.Socket} socket The socket over which to send the prompt request
      *
      * @return {Q.Promise<string>} A promise resolved with a string containing the user's response to the prompt
      */
-    public static promptForEnvVariableOverwrite(name: string, socket: NodeJSNet.Socket): Q.Promise<string> {
+    public static promptForEnvVariableOverwrite(name: string, socket: NodeJS.Socket): Q.Promise<string> {
         // If we auto-accept prompts, return with the YesString
         if (TacoGlobalConfig.noPrompt) {
             return Q.resolve(resources.getString("YesString"));
@@ -211,11 +211,11 @@ class InstallerUtils {
     /**
      * Sends data over the provided socket using the InstallerProtocol format
      *
-     * @param {NodeJSNet.Socket} socketHandle The socket to use for the communication
+     * @param {NodeJS.Socket} socketHandle The socket to use for the communication
      * @param {string} message The message to send over the socket
      * @param {InstallerProtocol.DataType} dataType = InstallerProtocol.DataType.Log The type of data to send over the socket
      */
-    public static sendData(socketHandle: NodeJSNet.Socket, message: string, dataType: installerDataType = installerDataType.Log): void {
+    public static sendData(socketHandle: NodeJS.Socket, message: string, dataType: installerDataType = installerDataType.Log): void {
         var data: InstallerProtocol.IElevatedInstallerMessage = {
             dataType: dataType,
             message: message

@@ -7,7 +7,7 @@
  */
 
 /// <reference path="../typings/nconf.d.ts" />
-/// <reference path="../typings/node.d.ts" />
+/// <reference types="node" />
 /// <reference path="../typings/tacoUtils.d.ts" />
 declare module TacoUtility {
     class ProcessLogger {

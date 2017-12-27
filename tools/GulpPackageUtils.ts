@@ -2,7 +2,7 @@
 // Licensed under the MIT license. See LICENSE file in the project root for details.
 
 /// <reference path="../src/typings/dynamicDependencyEntry.d.ts" />
-/// <reference path="../src/typings/node.d.ts" />
+/// <reference types="node" />
 /// <reference path="../src/typings/Q.d.ts" />
 /// <reference path="../src/typings/gulp-json-editor.d.ts" />
 

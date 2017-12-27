@@ -3,7 +3,7 @@
 // Definitions by: Bart van der Schoor <https://github.com/bartvds/>
 // Definitions: https://github.com/borisyankov/DefinitelyTyped
 
-/// <reference path="./node.d.ts" />
+/// <reference types="node" />
 
 declare module 'ncp' {
 	function ncp (source: string, destination: string, callback: (err: Error) => void): void;

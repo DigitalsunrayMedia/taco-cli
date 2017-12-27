@@ -6,7 +6,7 @@
  *******************************************************
  */
 
-/// <reference path="../typings/node.d.ts" />
+/// <reference types="node" />
 
 declare module TacoTestsUtils {
     class MemoryStream extends NodeJSStream.Writable {

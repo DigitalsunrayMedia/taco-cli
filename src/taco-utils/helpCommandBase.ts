@@ -5,7 +5,7 @@
 /// <reference path="../typings/commandAlias.d.ts" />
 /// <reference path="../typings/commandExample.d.ts" />
 /// <reference path="../typings/nameDescription.d.ts" />
-/// <reference path="../typings/node.d.ts" />
+/// <reference types="node" />
 /// <reference path="../typings/nopt.d.ts" />
 /// <reference path="../typings/tacoUtils.d.ts" />
 

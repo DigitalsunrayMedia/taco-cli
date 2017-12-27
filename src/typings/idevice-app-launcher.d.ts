@@ -1,7 +1,7 @@
 // Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for details.
 
-/// <reference path="./node.d.ts" />
+/// <reference types="node" />
 /// <reference path="./q.d.ts" />
 
 declare module "idevice-app-launcher" {

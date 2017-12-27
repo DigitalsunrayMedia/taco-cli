@@ -3,7 +3,7 @@
 // Definitions by: Wim Looman <https://github.com/Nemo157>
 // Definitions: https://github.com/borisyankov/DefinitelyTyped
 
-/// <reference path="./node.d.ts" />
+/// <reference types="node" />
 
 declare module "mock-fs" {
 	import fs = require("fs");

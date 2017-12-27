@@ -3,7 +3,7 @@
 
 "use strict";
 
-/// <reference path="../typings/node.d.ts" />
+/// <reference types="node" />
 /// <reference path="../typings/dictionary.d.ts" />
 /// <reference path="../typings/tacoProjectInfo.d.ts" />
 

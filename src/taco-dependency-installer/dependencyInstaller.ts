@@ -61,8 +61,8 @@ module TacoDependencyInstaller {
         private unsupportedMissingDependencies: ICordovaRequirement[];
         private missingDependencies: IDependency[];
 
-        private socketHandle: NodeJSNet.Socket;
-        private serverHandle: NodeJSNet.Server;
+        private socketHandle: NodeJS.Socket;
+        private serverHandle: net.Server;
 
         constructor(parentSessionId: string, dependenciesMetadataFilePath?: string) {
             this.parentSessionId = parentSessionId;
